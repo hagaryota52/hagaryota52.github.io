@@ -14,7 +14,7 @@ a {
 .container {
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .top-wrapper {
@@ -85,7 +85,6 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
 }
 
 .header-right a {
@@ -93,7 +92,6 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
   transition: all 0.5s;
 }
 
@@ -101,7 +99,7 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
+.menber-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -120,23 +118,23 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.menber {
   float: left;
   width: 25%;
+
 }
 
-.lesson-icon {
+.menber-icon {
   position: relative;
 }
 
-.lesson-icon p {
-
+.menber-icon p {
   width: 100%;
   color: black;
 
 }
 
-.lesson-icon img {
+.menber-icon img {
   width: 200px;
 }
 
@@ -175,25 +173,17 @@ footer {
   padding-bottom: 20px;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
 .clear {
   clear: left;
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
+  .menber {
     width: 50%;
     margin-bottom: 50px;
   }
 
-  .lesson-wrapper {
+  .menber-wrapper {
     height: 990px;
   }
 
@@ -213,26 +203,15 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
+  .container{
+      text-align: center;
   }
 
   .top-wrapper .btn {
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    margin-bottom: 5px;
   }
 
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
 
   .top-wrapper h1 {
     font-size: 24px;
@@ -242,11 +221,11 @@ footer {
     font-size: 14px;
   }
 
-  .lesson {
+  .menber {
     width: 100%;
   }
 
-  .lesson-wrapper {
+  .menber-wrapper {
     height: 1700px;
   }
 
